@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import *as detailsActions from "./actions";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
+import { dateFormatter } from "../../common";
 
 class MovieDetails extends React.Component {
     constructor(props) {
@@ -23,15 +24,26 @@ class MovieDetails extends React.Component {
             <div className="row mt-3">
                 <div className="col">
                     <div className="row">
-                        <div className="col-md-12 ">
-                            <h3>{movie.title}</h3>
-                            <hr/>
-                        </div>
                         <div className="col-md-4">
-                            <img src={`${imageBaseURL}/${imageSize}/${movie.poster_path}`} alt={movie.title} width="100%" height="auto"/>
+                            <img src={`${imageBaseURL}/${imageSize}/${movie.poster_path}`} alt={movie.title} className="img-thumbnail" />
                         </div>
-                        <div className="col-md-4">
-                            {movie.overview}
+                        <div className="col-md-8">
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h1>{movie.title}</h1>
+                                    <hr />
+                                </div>
+                                <div className="col-md-6">
+                                    Rating: <strong>{movie.vote_average}</strong>/10
+                                </div>
+                                <div className="col-md-6">
+                                    Release Date: <strong>{movie.release_date && dateFormatter(new Date(movie.release_date))}</strong>
+                                </div>
+                                <div className="col-md-12 pt-3">
+                                    {movie.overview}
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>

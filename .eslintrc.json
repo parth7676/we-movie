@@ -13,7 +13,7 @@
         "react"
     ],
     "rules": {
-        "no-console": "on",
+        "no-console": "error",
         "semicolon": [
             true,
             "always"
