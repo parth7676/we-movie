@@ -1,0 +1,53 @@
+// colors
+$us-facebook-blue: #4777ba;
+$us-google-red: #f13b2a;
+$us-partition-grey: #bdbdbd;
+$us-off-white: #fafafa;
+$us-dropdown-grey: #e8e8e8;
+$us-hard-gray: #7f7d8a;
+$us-soft-black: #585858;
+$us-purple-light: #3a36bd;
+$us-black: #000000;
+$us-white: #ffffff;
+
+body {
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.5s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.us-nav {
+  background-color: $us-white;
+  height: 65px;
+  padding: 10px 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: normal;
+  text-align: right;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.us-nav-link {
+  color: $us-black;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+

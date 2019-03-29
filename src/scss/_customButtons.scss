@@ -1,0 +1,97 @@
+// custom buttons
+
+.us-btn-primary {
+  font-size: 15px;
+  color: $us-white !important;
+  border: 2px solid $us-purple;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: linear-gradient(170.6deg, $us-purple 0%, $us-purple-light 100%);
+  transition: all 0.5s ease-in-out;
+}
+.us-btn-primary:hover,
+.us-btn-primary:focus,
+.us-btn-primary:active,
+.us-btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  font-size: 15px;
+  color: $us-purple !important;
+  border: 2px solid $us-purple;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: transparent;
+}
+
+.us-btn-danger {
+  font-size: 15px;
+  color: $us-white !important;
+  border: 2px solid $us-red;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: linear-gradient(170.6deg, $us-red 0%, $us-purple-light 100%);
+  transition: all 0.5s ease-in-out;
+}
+.us-btn-danger:hover,
+.us-btn-danger:focus,
+.us-btn-danger:active,
+.us-btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  font-size: 15px;
+  color: $us-purple !important;
+  border: 2px solid $us-purple;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: transparent;
+}
+
+.us-btn-google {
+  font-size: 15px;
+  color: $us-white !important;
+  border: 2px solid $us-google-red;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: linear-gradient(170.6deg, $us-google-red 0%, $us-google-red 100%);
+  transition: all 0.5s ease-in-out;
+}
+.us-btn-google:hover,
+.us-btn-google:focus,
+.us-btn-google:active,
+.us-btn-google.active,
+.open .dropdown-toggle.btn-google {
+  font-size: 15px;
+  color: $us-google-red !important;
+  border: 2px solid $us-google-red;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: transparent;
+}
+
+.us-btn-facebook {
+  font-size: 15px;
+  color: $us-white !important;
+  border: 2px solid $us-facebook-blue;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: linear-gradient(170.6deg, $us-facebook-blue 0%, $us-facebook-blue 100%);
+  transition: all 0.5s ease-in-out;
+}
+.us-btn-facebook:hover,
+.us-btn-facebook:focus,
+.us-btn-facebook:active,
+.us-btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  font-size: 15px;
+  color: $us-facebook-blue !important;
+  border: 2px solid $us-facebook-blue;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 50px;
+  background: transparent;
+}

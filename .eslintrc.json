@@ -1,0 +1,49 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": "on",
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "react/jsx-filename-extension": [
+            2,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ]
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "detect",
+            "flowVersion": "0.53"
+        }
+    }
+}
